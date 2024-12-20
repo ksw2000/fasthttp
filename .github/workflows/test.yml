@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - fix-issue-1926-test
   pull_request:
 jobs:
   test:
